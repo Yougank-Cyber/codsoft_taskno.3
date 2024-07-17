@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mama's Kitchen n' Grandmama's Love</h1>
+        <nav>
+            <ul id="menu-categories">
+                <li data-category="home">Home</li>
+                <li data-category="appetizers">Appetizers</li>
+                <li data-category="main-courses">Main Courses</li>
+                <li data-category="desserts">Desserts</li>
+                <li data-category="beverages">Beverages</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="menu-category active">
+            <img src="https://i.pinimg.com/564x/3f/e1/f8/3fe1f83dae961132d6d05cafdb962642.jpg" alt="Welcome Image" class="welcome-image">
+            <h2>Welcome To Our Restaurant</h2>
+            <p>Explore our menu and enjoy the delicious meals.</p>
+        </section>
+        <section id="menu-items">
+            <!-- Appetizers -->
+            <div class="menu-category" data-category="appetizers">
+                <h2>Appetizers</h2>
+                <div class="menu-item">
+                    <h3>Canape</h3>
+                    <img src="https://i.pinimg.com/564x/29/d9/81/29d9818fe95f70021c939768ff69e301.jpg" alt="appetizers" class="appetizers">
+                    <p>Just the right proportions to fill the Heart.</p>
+                    <p class="price">$6.50</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Spring Rolls</h3>
+                    <img src="https://i.pinimg.com/564x/f5/f2/bd/f5f2bdded3735939f1d1f4b40b3605f2.jpg" alt="appetizers" class="appetizers">
+                    <p>Crispy rolls with vegetables and meat filling.</p>
+                    <p class="price">$5.00</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Garlic Bread</h3>
+                    <img src="https://i.pinimg.com/564x/60/9d/01/609d0137a97d62fcef2aae60590a214f.jpg" alt="appetizers" class="appetizers">
+                    <p>Grilled bread topped with garlic butter.</p>
+                    <p class="price">$3.99</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Greek Salad</h3>
+                    <img src="https://i.pinimg.com/564x/06/08/9f/06089f499067ea4047cf3335d7cc4b45.jpg" alt="appetizers" class="appetizers">
+                    <p>Greek Salad made with Freshly Picked Materials.</p>
+                    <p class="price">$2.49</p>
+                </div>
+            </div>
+            <!-- Main Courses -->
+            <div class="menu-category" data-category="main-courses">
+                <h2>Main Courses</h2>
+                <div class="menu-item">
+                    <h3>Chicken Tikka</h3>
+                    <img src="https://i.pinimg.com/564x/4a/15/9e/4a159eee33b2fc306364929e9073c8a4.jpg" alt="maincourses" class="main-courses">
+                    <p>Made to perfection by Indian Moms.</p>
+                    <p class="price">$39.00</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Beef Enchiladas</h3>
+                    <img src="https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_960/v1/img/recipes/17/58/6/iFWI10ogRAq6SGTSXnXS_DSC_0385.jpg" alt="maincourses" class="main-courses">
+                    <p>Finger licking good Beef Enchiladas.</p>
+                    <p class="price">$29.99</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Grilled Salmon</h3>
+                    <img src="https://i.pinimg.com/564x/03/9d/f3/039df3974e993c1499c8e5a027943956.jpg" alt="maincourses" class="main-courses">
+                    <p>Salmon fillet grilled to perfection.</p>
+                    <p class="price">$15.00</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Spaghetti Carbonara</h3>
+                    <img src="https://i.pinimg.com/564x/7a/e0/66/7ae066e218c90ff45b2a4a771b309b72.jpg" alt="maincourses" class="main-courses">
+                    <p>Pasta with creamy sauce and bacon.</p>
+                    <p class="price">$12.00</p>
+                </div>
+            </div>
+            <!-- Desserts -->
+            <div class="menu-category" data-category="desserts">
+                <h2>Desserts</h2>
+                <div class="menu-item">
+                    <h3>Traditional Vanilla Custard</h3>
+                    <img src="https://img.taste.com.au/DhUJXB7k/w643-h428-cfill-q90/taste/2013/09/classic-no-bake-vanilla-cheesecake-cropped-199969-1.jpg" alt="desserts" class="desserts">
+                    <p>So sweet that it may give you cavities.</p>
+                    <p class="price">$9.00</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Chocolate Cake</h3>
+                    <img src="https://i.pinimg.com/564x/9d/25/93/9d2593780fe22eba7acf1ea6e9e57110.jpg" alt="desserts" class="desserts">
+                    <p>Rich chocolate cake with frosting.</p>
+                    <p class="price">$7.00</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Tiramisu</h3>
+                    <img src="https://i.pinimg.com/564x/0d/4d/12/0d4d12749fd104d1235c1a362a25968c.jpg" alt="desserts" class="desserts">
+                    <p>Tiramisu is an Italian dessert that translates to “pick me up”, and it certainly does just that.</p>
+                    <p class="price">$5.99</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Ice Cream Sundae</h3>
+                    <img src="https://i.pinimg.com/564x/7f/82/27/7f82273ff136c5c3d8f9e6fee6ef30b6.jpg" alt="desserts" class="desserts">
+                    <p>Ice cream with chocolate syrup and nuts.</p>
+                    <p class="price">$4.00</p>
+                </div>
+            </div>
+            <!-- Beverages -->
+            <div class="menu-category" data-category="beverages">
+                <h2>Beverages</h2>
+                <div class="menu-item">
+                    <div class="menu-item">
+                        <h3>Smoothies</h3>
+                        <img src="https://i.pinimg.com/564x/eb/49/89/eb4989f6b873d65c9e2989506c26b275.jpg" alt="beverages" class="beverages">
+                        <p>Made from any fruit desired.</p>
+                        <p class="price">$3.00</p>
+                    </div>
+                    <h3>Coffee</h3>
+                    <img src="https://w0.peakpx.com/wallpaper/1000/355/HD-wallpaper-flavours-coffee-good-morning-cafe-time-hq-coffee-beans-cold-creamy-coffee-glass-coffee-grinders-coffee-hot-coffee-with-milk-cups.jpg" alt="beverages" class="beverages">
+                    <p>Freshly brewed coffee. Hot and Iced coffee.</p>
+                    <p class="price">$2.00</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Lemonade</h3>
+                    <img src="https://i.pinimg.com/564x/c1/02/c0/c102c030a629a0495993d5d5705e3f92.jpg" alt="beverages" class="beverages">
+                    <p>Refreshing lemonade.</p>
+                    <p class="price">$3.00</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Cocktails</h3>
+                    <img src="https://i.pinimg.com/564x/10/75/be/1075be1b58e98dfa1ef23b42f7f3afb9.jpg" alt="beverages" class="beverages">
+                    <p>Just ask out your cocktails and see the magic in 3min.</p>
+                    <p class="price">$3.00</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>document.addEventListener('DOMContentLoaded', function() {
+        const categories = document.querySelectorAll('#menu-categories li');
+        const menuSections = document.querySelectorAll('.menu-category');
+    
+        categories.forEach(category => {
+            category.addEventListener('click', function() {
+                const selectedCategory = this.getAttribute('data-category');
+    
+                menuSections.forEach(section => {
+                    if (section.getAttribute('data-category') === selectedCategory || selectedCategory === 'home') {
+                        section.classList.add('active');
+                    } else {
+                        section.classList.remove('active');
+                    }
+                });
+            });
+        });
+    
+        // Show the home section by default
+        document.querySelector('.menu-category[data-category="home"]').classList.add('active');
+    });
+    </script>
+<footer>
+    <p>&copy; Mama's Kitchen n' Grandmama's Love. All rights reserved.</p>
+    <p>For reservations call +01 23456 78900</p>
+</footer>
+</body>
+</html>
